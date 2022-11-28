@@ -30,21 +30,6 @@ const propTypes = {
         zipCode: PropTypes.string,
     }),
 
-    /** Form values */
-    values: PropTypes.shape({
-        /** Address street field */
-        street: PropTypes.string,
-
-        /** Address city field */
-        city: PropTypes.string,
-
-        /** Address state field */
-        state: PropTypes.string,
-
-        /** Address zip code field */
-        zipCode: PropTypes.string,
-    }),
-
     /** Form default values */
     defaultValues: PropTypes.shape({
         /** Address street field */
